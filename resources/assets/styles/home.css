@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 922px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 76px;
+  background: linear-gradient(to right, #00526a, #ffffff 85%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px !important;
+  padding: 0 14px;
+}
+
+header img {
+  height: 60px;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+section {
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 30px;
+}
+
+section.detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__title {
+  font-size: 23px;
+}
+
+.box__section__title {
+  padding-bottom: 16px;
+}
+
+.box__content__services {
+  margin-left: 5px;
+}
+
+.box__content__services span {
+  margin-right: 10px;
+}
+
+.box__content__services i {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+i.rotate {
+  transform: rotate(-45deg)
+}
+
+.box__idBudget {
+  text-align: end;
+  margin-top: 10px;
+}
+
+.container__budget {
+  display: grid;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.box__budget__values {
+ text-align: right;
+ display: grid;
+ gap: 10px;
+}
+
+.box__budget__values span {
+  font-size: 20px;
+}
+
+.box__budget__values small {
+  font-weight: normal;
+}
+
+.client__details, .travel__details, .accommodation_details, .services_details {
+  padding-top: 10px;
+}
+
+.box__client__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box__client__details span i {
+  margin-right: 10px;
+}
+
+.destination__details, .destination__location__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #00526a, #ffffff 85%);
+  height: 38px;
+  color: #fff;
+}
+
+.box {
+  margin-left: 10px;
+}
+
+.box__weight, .box__date {
+  color: #5A5A5A;
+  font-weight: bold;
+}
+
+.box__departure {
+  margin-left: 10px;
+}
+
+.destination__location__details {
+  background: #fff;
+}
+
+.destination__location__details, .box__section__title--border{
+  color: #5A5A5A;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.services_details .box__section__title {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.section__title.description{
+  font-size: 16px;
+  letter-spacing: -.02em;
+}
+
+.box__section__title--space {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
