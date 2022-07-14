@@ -43,7 +43,7 @@ class Voucher {
    * Telefone do comprador
    * @var string
    */
-  private $buyerPhone = "(13) 3394-4140";
+  private $buyerPhone = "1333944140";
 
   /**
    * Quantidade de Pessoas

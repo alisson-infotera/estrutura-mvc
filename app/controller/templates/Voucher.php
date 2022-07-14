@@ -21,7 +21,7 @@ class VoucherTemplate extends Template {
       "taxIncludes" => number_format($objVoucher->getTaxIncludes(), 2, ',', '.'),
       "buyerName" => $objVoucher->getBuyerName(),
       "buyerEmail" => $objVoucher->getBuyerEmail(),
-      "buyerPhone" => $objVoucher->getBuyerPhone(),
+      "buyerPhone" => View::formatPhone($objVoucher->getBuyerPhone()),
       "amountPeople" => $objVoucher->getAmountPeople(),
       "amountBags" => $objVoucher->getAmoutBags(),
       "weightBags" => number_format($objVoucher->getWeightBags(), 0),
